@@ -3,8 +3,8 @@ class LinebotController < ApplicationController
   require "open-uri"
   require 'net/http'
   require "json"
-  API_KEY = ENV['ENV_API_KEY']
-  GOOGLE_API_KEY =  ENV['ENV_GOOGLE_API_KEY']
+  API_KEY = ENV['API_KEY']
+  GOOGLE_API_KEY =  ENV['GOOGLE_API_KEY']
   BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
   GOOGLE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 
